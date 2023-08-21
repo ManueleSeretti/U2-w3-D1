@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Inserisci i dati del tuo animale domestico</h1>
+      <form onsubmit="aggiungi(event)">
+        <label for="">Nome:</label>
+        <input id="petName" type="text" placeholder="inserisci il nome dell' animale" />
+        <br />
+        <br />
+        <label for="">Proprietario:</label>
+        <input id="ownerName" type="text" placeholder="inserisci il nome Proprietario" />
+        <br />
+        <br />
+        <label for="">Specie:</label>
+        <input id="species" type="text" placeholder="inserisci la specie" />
+        <br />
+        <br />
+        <label for="">Razza:</label>
+        <input id="breed" type="text" placeholder="inserisci la razza" />
+        <br />
+        <br />
+        <button>AGGIUNGI</button>
+        <br />
+        <br />
+      </form>
+      <div id="lista"><h2>Lista degli animali</h2></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
